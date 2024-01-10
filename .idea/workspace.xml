@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79072b4-b258-4661-a750-5667dcaf7f9a" name="Changes" comment="Proiect final">
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/LogOutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/LogOutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -31,16 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Raul/IdeaProjects/ProiectFinal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.ProiectFinal [clean].executor": "Run",
+    "Maven.ProiectFinal [compile].executor": "Run",
+    "Maven.ProiectFinal [test].executor": "Run",
+    "Maven.ProiectFinal [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.LogInWithWrongUserTest.LogInWithWrongUsername.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Raul/IdeaProjects/ProiectFinal",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Perforce"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.LogOutTests.logOutTest">
+}]]></component>
+  <component name="RunManager" selected="TestNG.LogInWithWrongUserTest.LogInWithWrongUsername">
     <configuration name="BuyAllTheProductsTests.BuySauceLabsBackpack" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinal" />
       <extension name="coverage">
@@ -52,6 +68,24 @@
       <option name="PACKAGE_NAME" value="testCases" />
       <option name="MAIN_CLASS_NAME" value="testCases.BuyAllTheProductsTests" />
       <option name="METHOD_NAME" value="BuySauceLabsBackpack" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInWithWrongUserTest.LogInWithWrongUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.LogInWithWrongUserTest" />
+      <option name="METHOD_NAME" value="LogInWithWrongUsername" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,24 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoProductOrderTests.NoProductInCartAndCheckout" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProiectFinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.NoProductOrderTests" />
-      <option name="METHOD_NAME" value="NoProductInCartAndCheckout" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortByHighToLowTests.sortByPriceHighToLow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinal" />
       <extension name="coverage">
@@ -133,13 +149,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LogInWithWrongUserTest.LogInWithWrongUsername" />
         <item itemvalue="TestNG.LogOutTests.logOutTest" />
         <item itemvalue="TestNG.LogOutTests.LogOutTest" />
         <item itemvalue="TestNG.BuyAllTheProductsTests.BuySauceLabsBackpack" />
         <item itemvalue="TestNG.SortByHighToLowTests.sortByPriceHighToLow" />
-        <item itemvalue="TestNG.NoProductOrderTests.NoProductInCartAndCheckout" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -182,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704909689702</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Proiect final">
+      <option name="closed" value="true" />
+      <created>1704910031419</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704910031419</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Proiect final">
+      <option name="closed" value="true" />
+      <created>1704911534906</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704911534906</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +229,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
