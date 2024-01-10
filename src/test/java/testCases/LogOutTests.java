@@ -45,7 +45,7 @@ public class LogOutTests extends BasePage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement logoutLink = wait.until(ExpectedConditions.elementToBeClickable(By.id("logout_sidebar_link")));
 
-      5115  //String actualResult = driver.findElement(By.id("login-button")).getText();
+        //String actualResult = driver.findElement(By.id("login-button")).getText();
         //System.out.println(actualResult);
         //Assert.assertTrue(actualResult.contains("Login"));
 
